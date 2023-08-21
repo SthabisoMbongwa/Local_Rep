@@ -242,4 +242,7 @@ nav{
  .line {
     border-top: 2px solid rgb(204, 196, 196);
     padding-top: 3px;
+     margin-left: 18px;
+    /* margin-right: auto */ 
+    max-width: 93%;
  }
