@@ -74,6 +74,8 @@ nav{
     .nav-links{
         width:60%
     }
+
+    
     
     
 }
@@ -110,6 +112,7 @@ nav{
     .burger{
         display: block;
     }
+
 }
 
 .nav-active{
@@ -155,7 +158,7 @@ nav{
     margin: 0 auto;
 }
  
- header {
+ .header-btn {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -203,7 +206,7 @@ nav{
      /* background-color: aqua; */
  }
  
- header button {
+ .btn-btn {
      color: rgb(204, 196, 196);
      font-weight: 750;
      font-size: 0.7rem;
@@ -213,7 +216,7 @@ nav{
      border: solid black;
      border-radius: 10px;
      padding: 6px 6px;
-     margin-left: 43%;
+     /* margin-left: 50%; */
      /* margin-top: 10px; */
      max-width: 100%;
      /* margin-right: 50%; */
@@ -224,6 +227,7 @@ nav{
      padding-top: 20px;
      padding-bottom: 20px;
      max-width: 100%;
+     text-align: center;
      
  }
  
