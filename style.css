@@ -500,21 +500,26 @@ nav{
 
 /*///////////////////////////////CONTACT PAGE//////////////////////////////////// */
 
+.contact-wrapper{
+    background-color: aqua;
+}
 
 .left-section {
     display: flex;
     flex-direction: column;
     height: 50vh;
     width: 40vw;
+    background-color: #45a049;
 }
 
 .right-section {
     /* display: flex;
     justify-content: center; */
-    height: 30vh;
-    width: 50%;
+    height: 50vh;
+    width: 40vw;
     /* border: solid blue 1px ; */
-    text-align: center;
+    /* text-align: end; */
+    background-color: blueviolet;
 }
 
 .contact-icons {
@@ -524,6 +529,15 @@ nav{
     height: 100%;
 }
 
+.form-container {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+    /* max-height: 100%; */
+}
 h1 {
     /* font-family: "Poppins", sans-serif;
     font-style: normal; */
@@ -554,7 +568,8 @@ p {
  .contact-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    /* background-color: #45a049; */
+    justify-content: space-evenly;
     height: 80vh;
  }
 
@@ -565,8 +580,9 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     /* padding: 12px; */
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical;
+    /* resize: vertical; */
     width: 100%;
+    background-color:#242938;
   }
   
   /* label {
@@ -597,18 +613,21 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
   
   
   .col-75 {
-    float: left;
-    width: 75%;
+    /* float: right; */
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
     margin-top: 6px;
+    height: 100%;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  /* .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+   */
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
