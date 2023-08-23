@@ -495,3 +495,34 @@ nav{
         font-size: 2rem;
     }
 }
+
+
+
+/*///////////////////////////////CONTACT PAGE//////////////////////////////////// */
+
+h1 {
+    /* font-family: "Poppins", sans-serif;
+    font-style: normal; */
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 75px;
+    text-align: start;
+    color: rgb(204, 196, 196);
+    letter-spacing: 2px;
+    /* background-color: bisque; */
+    
+    /* max-width: ; */
+}
+
+p {
+    font-size: 1rem;
+    /* font-style: normal; */
+
+    /* line-height: 42px; */
+    /* color: #021718; */
+    /* max-width: 100%; */
+    /* background-color: blueviolet; */
+    text-align:start;
+    max-width: 100%;
+    color: rgb(204, 196, 196);
+ }
