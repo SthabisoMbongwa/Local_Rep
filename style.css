@@ -509,7 +509,7 @@ nav{
     flex-direction: column;
     height: 50vh;
     width: 40vw;
-    background-color: #45a049;
+    /* background-color: #45a049; */
 }
 
 .right-section {
@@ -520,6 +520,7 @@ nav{
     /* border: solid blue 1px ; */
     /* text-align: end; */
     background-color: blueviolet;
+    /* border: blue; */
 }
 
 .contact-icons {
@@ -535,7 +536,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    
+    /* border: blue; */
     /* max-height: 100%; */
 }
 h1 {
@@ -582,7 +583,7 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     border-radius: 4px;
     /* resize: vertical; */
     width: 100%;
-    background-color:red;
+    /* background-color:red; */
   }
   
   /* label {
@@ -623,11 +624,11 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  /* .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
