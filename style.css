@@ -504,6 +504,8 @@ nav{
 .left-section {
     display: flex;
     flex-direction: column;
+    height: 50vh;
+    width: 40vw;
 }
 
 .contact-icons {
@@ -542,7 +544,7 @@ p {
  .contact-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
 
@@ -555,12 +557,12 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     resize: vertical;
   }
   
-  label {
+  /* label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
-  
-  /* input[type=submit] {
+   */
+   /* input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -568,7 +570,7 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     border-radius: 4px;
     cursor: pointer;
     float: right;
-  } */
+  }  */
   
   input[type=submit]:hover {
     background-color: #45a049;
@@ -629,4 +631,8 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
     text-align: center;
 
     
+}
+
+.social-icons {
+    text-align: center;
 }
