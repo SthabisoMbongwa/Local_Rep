@@ -508,10 +508,20 @@ nav{
     width: 40vw;
 }
 
+.right-section {
+    /* display: flex;
+    justify-content: center; */
+    height: 30vh;
+    width: 50%;
+    /* border: solid blue 1px ; */
+    text-align: center;
+}
+
 .contact-icons {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 100%;
 }
 
 h1 {
@@ -545,16 +555,18 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 80vh;
  }
 
 
  
 input[type=text], input[type=email], input[type=tel], select, textarea {
-    width: 100%;
-    padding: 12px;
+    /* width: 100; */
+    /* padding: 12px; */
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    width: 100%;
   }
   
   /* label {
