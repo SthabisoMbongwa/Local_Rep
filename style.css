@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     /* font-size: 20px; */
-    /* border: white solid 1px; */
+    border: white solid 1px;
 }
 
 
@@ -526,3 +526,11 @@ p {
     max-width: 100%;
     color: rgb(204, 196, 196);
  }
+
+ .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ 
