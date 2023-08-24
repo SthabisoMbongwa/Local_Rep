@@ -662,6 +662,21 @@ p {
 }
 
 
+.contactIcon{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactPar {
+    text-align: center;
+    margin-left: 0.5rem;
+    padding-top: 0.4rem;
+
+}
+
+
+
+
 /* ////////////////////////////////////////Skills\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .skills {
