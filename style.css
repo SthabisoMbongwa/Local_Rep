@@ -693,4 +693,19 @@ p {
 
 .par {
     /* background-color: red; */
+    color: rgb(204, 196, 196);
+    text-align: center;
+    /* width: 50%; */
+    margin-left: 20%;
+    margin-right: 20%;
 }
+
+.line1 {
+    border-top: 3px solid rgb(204, 196, 196);
+    padding-top: 3px;
+     margin-left: 50px;
+    /* margin-right: auto */ 
+    /* max-width: 79%; */
+    margin-right: 21%;
+    margin-left: 21%;
+ }
