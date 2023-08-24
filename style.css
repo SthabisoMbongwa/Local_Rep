@@ -709,3 +709,13 @@ p {
     margin-right: 21%;
     margin-left: 21%;
  }
+
+ .react {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .react-par{
+    text-align: center;
+    margin-bottom: 0.5rem;
+ }
