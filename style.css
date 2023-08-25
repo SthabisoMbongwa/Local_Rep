@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     /* font-size: 20px; */
-    border: white solid 1px;
+    /* border: white solid 1px; */
 }
 
 
@@ -782,7 +782,6 @@ p {
     border-top: dashed black 1px;
     height: 5rem;
     max-width: 13rem;
-
  }
 
  .card-par {
