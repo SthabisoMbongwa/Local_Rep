@@ -780,3 +780,9 @@ p {
     border-right: solid rgba(20, 65, 180, 1) 2px;
 
 }
+
+.github {
+    text-align: center;
+    color: rgb(204, 196, 196);
+    padding-top: 4%;
+}
