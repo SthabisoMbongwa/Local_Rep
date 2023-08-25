@@ -756,16 +756,25 @@ p {
     flex-direction: column;
     justify-content: flex-end;
     background-color: rgba(245, 234, 234, 1);
-    height: 20rem;
-    width: 13rem;
+    height: 40vh;
+    width: 18vw;
     border-radius: 0.9rem;
     border: solid black 2px;
  }
 
  .content-card {
+    display: flex;
+    flex-direction: column;
     border-top: dashed black 1px;
     height: 5rem;
     max-width: 13rem;
+
+ }
+
+ .card-par {
+    text-align: center;
+    color: black;
+    font-size: 0.7rem;
  }
 
 .view-github {
@@ -783,6 +792,7 @@ p {
 
 .github {
     text-align: center;
-    color: rgb(204, 196, 196);
+    color: black;
     padding-top: 4%;
+    font-weight: 900;
 }
