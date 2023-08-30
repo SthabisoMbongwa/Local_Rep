@@ -186,7 +186,7 @@ nav{
 
 
 
-/* --------------------------------------------------Body Section--------------------------------------------*/
+/*=================================================BodySection================================================*/
 
 .header-container {
     height: calc(100vh - 72px);
@@ -274,8 +274,8 @@ nav{
 
 
 
-                                                                /* About Me Style */
- /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+                                                               
+ /*=================================================AboutMeStyle===========================================*/
  
  .about-body {
      font-family: 'Poppins', sans-serif;
@@ -312,14 +312,11 @@ nav{
 
  .my-image {
     position: relative;
-    width: 50vh; 
+    max-width: 50vh; 
     background-color: #948C8C;
-    height: 80%;
+    max-height: 80%;
     margin-left: 50px;
     border-bottom-left-radius: 50%;
-  
-    
-
 }
 
 /* .img-border{
@@ -333,8 +330,8 @@ nav{
 }
 
   img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
  }
 
 
@@ -384,8 +381,6 @@ nav{
     padding-bottom: 20px;
     max-width: 100%;
     text-align: start;
-
-    
 }
 
 @media screen and (max-width: 600px) {
@@ -416,7 +411,7 @@ nav{
 
 
 
-/*----------------------------------------------------CONTACTPAGE------------------------------------------- */
+/*==================================================CONTACTPAGE================================================*/
 
 
 .left-section {
@@ -425,8 +420,6 @@ nav{
     height: 50vh;
     width: 40vw;
     margin-left: 1.9rem;
-    
-
 }
 
 
@@ -443,6 +436,7 @@ form {
     border: blue 2px solid;
 }
 
+
 .input-field {
     font-family: 'Poppins', sans-serif;
     width: 70%;
@@ -456,10 +450,12 @@ form {
     background-color: rgba(36, 41, 56, 1);
 }
 
+
 .textarea-field{
     height: 8.3rem;
     padding-top: 0.6rem;
 }
+
 
 .contact-icons {
     display: flex;
@@ -468,6 +464,7 @@ form {
     height: 100%;
 }
 
+
 h1 {
     font-weight: 900;
     font-size: 2.5rem;
@@ -475,6 +472,7 @@ h1 {
     text-align: start;
     color: rgb(204, 196, 196);
 }
+
 
 p {
     font-size: 1rem;
@@ -511,8 +509,6 @@ p {
         border: blue 2px solid;
         width: 80vw;
         height: auto; /* Let it adjust its height as needed */
-        
-        
     }
 
 }
@@ -528,7 +524,7 @@ p {
     padding: 0.3rem 0.3rem;
     max-width: 100%;
     height: 1.9rem;
-     width: 6.1rem ;
+    width: 6.1rem ;
 }
 
 .contact-btn {
@@ -556,12 +552,11 @@ p {
     text-align: center;
     margin-left: 0.5rem;
     padding-top: 0.4rem;
-
 }
 
 
 
-/*-------------------------------------------------Skills----------------------------------------------------*/
+/*--------------------------------------------------Skills----------------------------------------------------*/
 
 .skills {
     display: flex;
@@ -612,7 +607,7 @@ p {
  }
 
 
- /* /////////////////////////////////////////////PROJECTS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ /*----------------------------------------------------PROJECTS-----------------------------------------------*/
 
 .projects-wrapper {
     display: flex;
