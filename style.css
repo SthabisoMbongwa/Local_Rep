@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* border: white solid 1px; */
+    border: white solid 1px;
 }
 
 
@@ -234,6 +234,7 @@ nav{
      max-width: 100%;
      color: rgb(204, 196, 196);
  }
+
  
  .btn-btn {
      color: rgb(204, 196, 196);
@@ -254,7 +255,12 @@ nav{
      padding-bottom: 20px;
      max-width: 100%;
      text-align: center;
-     
+     text-decoration: none;
+ }
+
+ .btn-btn a {
+    text-decoration: none;
+    color: rgb(204, 196, 196);
  }
  
  .body-section {
@@ -373,7 +379,7 @@ nav{
     padding: 6px 6px;
     max-width: 100%;
     height: 35px;
-     width: 110px 
+    width: 110px 
 }
 
 .about-btn {
@@ -381,6 +387,11 @@ nav{
     padding-bottom: 20px;
     max-width: 100%;
     text-align: start;
+}
+
+.about-btn a {
+    text-decoration: none;
+    color: rgb(204, 196, 196);
 }
 
 @media screen and (max-width: 600px) {
@@ -532,6 +543,12 @@ p {
     padding-bottom: 1.111rem;
     max-width: 100%;
     text-align: center; 
+    text-decoration: none;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: rgb(204, 196, 196);
 }
 
 .social-icons {
@@ -588,6 +605,7 @@ p {
     margin-right: 20%;
 }
 
+
 .line4 {
     border-top: 3px solid rgb(204, 196, 196);
     padding-top: 3px;
@@ -631,6 +649,12 @@ p {
     width: 100vw;
     padding-bottom: 10rem;
     
+ }
+
+ .view-github a {
+    text-decoration: none;
+    color: rgb(204, 196, 196);
+
  }
 
  .cards {
