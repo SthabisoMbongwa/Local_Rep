@@ -251,7 +251,7 @@ nav{
  }
 
  
- .btn-btn:hover {
+ button:hover {
      color: black; 
     background-color: rgb(205, 24, 24);
 }
