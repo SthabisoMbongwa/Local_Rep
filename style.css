@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: white solid 1px;
+    /* border: white solid 1px; */
 }
 
 
@@ -249,7 +249,13 @@ nav{
      height: 35px;
      width: 110px ;
  }
+
  
+ .btn-btn:hover {
+     color: black; 
+    background-color: rgb(205, 24, 24);
+}
+
  .btn {
      padding-top: 20px;
      padding-bottom: 20px;
