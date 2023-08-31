@@ -56,6 +56,11 @@ nav{
     font-size: 0.8rem;
 }
 
+.nav-links .link {
+    color: blue;
+  }
+  
+
 h4 a {
     text-decoration: none;
     color: rgb(204, 196, 196);
@@ -214,8 +219,8 @@ h4 a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-     padding-bottom: 20px;
-     margin-top: 25%;
+    padding-bottom: 20px;
+    margin-top: 25%;
      
 
  }
