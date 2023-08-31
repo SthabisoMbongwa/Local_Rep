@@ -56,6 +56,22 @@ nav{
     font-size: 0.8rem;
 }
 
+.nav-links .link {
+    color: blue;
+  }
+  
+
+h4 a {
+    text-decoration: none;
+    color: rgb(204, 196, 196);
+}
+
+
+.nav-links a:active {
+    color: rgb(22, 22, 199);
+}
+
+
 .burger{
     display: none;
     cursor: pointer; 
@@ -203,8 +219,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-     padding-bottom: 20px;
-     margin-top: 25%;
+    padding-bottom: 20px;
+    margin-top: 25%;
      
 
  }
@@ -251,7 +267,7 @@ nav{
  }
 
  
- .btn-btn:hover {
+ button:hover {
      color: black; 
     background-color: rgb(205, 24, 24);
 }
