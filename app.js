@@ -1,3 +1,5 @@
+// Database reference: https://online-profile-e324b-default-rtdb.firebaseio.com/
+
 
 const navSlide = () => {
     const burger = document.querySelector(".burger");
