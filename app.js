@@ -1,3 +1,18 @@
+// Database reference: https://online-profile-e324b-default-rtdb.firebaseio.com/
+
+var navLinks = document.getElementsByClassName("nav-links");
+var links = navLinks.getElementsByClassName("link");
+
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function() {
+    var current = navLinks.getElementsByClassName("active");
+  });
+}
+
+
+
+
+
 
 const navSlide = () => {
     const burger = document.querySelector(".burger");
