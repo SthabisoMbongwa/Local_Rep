@@ -45,7 +45,7 @@ nav{
   .logo{
     color: rgb(204, 196, 196);
     letter-spacing: 2px;
-    /* font-size: 1.5rem; */
+    font-size: 1.5rem;
   }
   
   .nav-links{
@@ -119,12 +119,6 @@ nav{
         width:60%
     }
     
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-size: 15px;
-    }
   }
   
   
@@ -552,6 +546,10 @@ nav{
     color: white;
     border-radius: 0.6rem;
     background-color: rgba(36, 41, 56, 1);
+  }
+
+  input::placeholder, textarea::placeholder {
+    color: rgb(204, 196, 196);
   }
   
   
