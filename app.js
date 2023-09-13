@@ -147,7 +147,6 @@ tl.fromTo(".hero-content", { opacity: 0}, { opacity: 1});
 
 
 
-
 // // Get references to error message elements
 // var nameError = document.getElementById('name-error');
 // var emailError = document.getElementById('email-error');
