@@ -1,4 +1,9 @@
-
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: white solid 1px; */
+}
 
 :root {
   font-size: 18px;
@@ -101,24 +106,14 @@ nav{
     .nav-links{
         width:60%
     }
-  
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        font-size: 20px;
-    }
-  
-    
-    
-    
+
   }
   
   @media screen and (max-width: 768px){
     .nav-links{
         width:60%
     }
-    
+  
   }
   
   
@@ -465,14 +460,6 @@ nav{
   
   /*==================================================CONTACTPAGE================================================*/
   
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    /* border: white solid 1px; */
-  }
-
-
   .contact-info {
     display: flex;
     justify-content: center;
@@ -546,10 +533,6 @@ nav{
     color: white;
     border-radius: 0.6rem;
     background-color: rgba(36, 41, 56, 1);
-  }
-
-  input::placeholder, textarea::placeholder {
-    color: rgb(204, 196, 196);
   }
   
   
