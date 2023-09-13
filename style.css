@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* border: white solid 1px; */
+  /* border: red solid 1px; */
 }
 
 :root {
@@ -342,10 +342,12 @@ nav{
   .my-image {
     position: relative;
     max-width: 50vh; 
-    background-color: #948C8C;
+    background-color: rgb(185, 167, 167);
     max-height: 80%;
     margin-left: 50px;
-    border-bottom-left-radius: 50%;
+    border-radius: 10%;
+    /* border-bottom-left-radius: 50%; */
+   
   }
   
   /* .img-border{
@@ -361,6 +363,7 @@ nav{
   img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 10%;
   }
   
   
@@ -810,11 +813,26 @@ nav{
     box-shadow: 0px -2px 5px blue;
   }
   
+  .image-container{
+    height: 100%;
+    background-color: rebeccapurple
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+  }
+  
+  .cards-images{
+    height: 100%;
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+  }
+
   .content-card {
     display: flex;
     flex-direction: column;
     border-top: dashed black 1px;
-    height: 5rem;
+    height: 100%;
     max-width: 100%;
     padding: 0.2rem;
   }
