@@ -4,6 +4,7 @@ import gsap from './node_modules/gsap/index.js';
 
 
 const textureLoader = new THREE.TextureLoader()
+
 const normalTexture = textureLoader.load('/texture/height3.jpg')
 
 // Canvas
@@ -12,8 +13,35 @@ const canvas = document.querySelector('.webgl')
 // Scene
 const scene = new THREE.Scene()
 
+
 // Objects
-const geometry = new THREE.SphereBufferGeometry(0.8, 64, 64)
+
+// Reduce sphere size in small screen, for small screen 0.6, 
+// Add auto reloud, sphere doesnt update automatically when screen size decrease
+
+const sizes = {
+    width: window.innerWidth,
+    height: window.innerHeight
+}
+
+const geometry = new THREE.SphereBufferGeometry(0.9, 64, 64) 
+
+// function geom(){
+
+//     if(sizes.width / sizes.height < 1.3648854961832062){
+
+//         const geometry = new THREE.SphereBufferGeometry(0.6, 64, 64)
+//         return geometry
+//     }else{
+//         const geometry = new THREE.SphereBufferGeometry(0.9, 64, 64) 
+//         return geometry
+//     }
+    
+// }
+
+// const geometry = geom()
+
+
 
 // Materials
 const material = new THREE.MeshStandardMaterial()
@@ -43,13 +71,6 @@ pointLight3.position.set(1.2, -1.4, -0.46)
 pointLight3.intensity = 1.7
 scene.add(pointLight3)
 
-/**
- * Sizes
- */
-const sizes = {
-    width: window.innerWidth,
-    height: window.innerHeight
-}
 
 window.addEventListener('resize', () => {
     // Update sizes

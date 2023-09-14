@@ -19,6 +19,10 @@ body
     overflow: hidden;
 }
 
+/* .webg{
+  max-width: 100vw;
+  maheight: 100vh;
+} */
 
 .webgl
 {
