@@ -501,6 +501,8 @@ nav{
      .contact-icons {
       display: flex;
       flex-direction: column;
+      padding-top: 2rem;
+      overflow-y: scroll;
     }
   
      form {

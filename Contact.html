@@ -10,6 +10,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/12d3f8702d.js" crossorigin="anonymous"></script>
   <title>Contact</title>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("0Habm_pXneXaGAoBs");
+    })();
+</script>
 </head>
 
 <body class="about-body">
@@ -72,7 +78,7 @@
 
             <div class="right-section">
 
-              <form class="form-content" id="contact-form"">
+              <form class="form-content" id="contact-form" onsubmit="return sendMail()">
 
                     <div class="field-container"> 
                         <input type="text" required class="input-field" placeholder="Your Name" id="contact-name">
@@ -87,7 +93,7 @@
                         <textarea type="text" class="input-field textarea-field" placeholder="Your Message" id="contact-message"></textarea>
                     </div>
                     <div class="btn">
-                        <button type="submit" class="btn-btn" id="submit">Send Message</button>
+                        <button type="submit" class="btn-btn" id="submit" onclick="sendMail()">Send Message</button>
                     </div>
 
               </form>
@@ -120,8 +126,10 @@
     </div>
 
   </section>
-  <script src="main.js"></script>
+  
   
 </body>
+<script type="text/javascript" src="main.js">
 
+</script>
 </html>
