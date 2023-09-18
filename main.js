@@ -1,5 +1,3 @@
-// import gsap from './node_modules/gsap/index.js';
-// import gsap from 'gsap';
 
 
 function sendMail() {
@@ -61,23 +59,23 @@ const navSlide = () => {
 
 navSlide();
 
-gsap.set(".card1", {opacity: 0,
+gsap.set(".project-cards", {opacity: 0,
                 y: -500 })
 
-gsap.to(".card1", {
+gsap.to(".project-cards", {
     opacity: 1,
     duration: 4,
     y: 0
 })
 
-gsap.set(".card2", {opacity: 0,
-    y: -500 })
+// gsap.set(".card2", {opacity: 0,
+//     y: -500 })
 
-gsap.to(".card2", {
-opacity: 1,
-duration: 4,
-y: 0
-})
+// gsap.to(".card2", {
+// opacity: 1,
+// duration: 4,
+// y: 0
+// })
 
 
 

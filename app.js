@@ -117,7 +117,7 @@ const tick = () => {
     const elapsedTime = clock.getElapsedTime()
 
     // Update objects
-    sphere.rotation.y = -.2 * elapsedTime
+    sphere.rotation.y = -.5 * elapsedTime
     // sphere.rotation.y = .2 * elapsedTime
     //  sphere.rotation.x = .2 * elapsedTime
 
@@ -140,7 +140,9 @@ tick()
 //Timeline
 const tl = gsap.timeline({defaults: { duration: 1}});
 tl.fromTo(sphere.scale, {z: 0, x: 0, y: 0}, {z: 1, x: 1, y: 1});
+tl.fromTo(".hero-content", { y: "200%"}, { y: "0%"});
 tl.fromTo("nav", { y: "-100%"}, {y: "0%"});
-tl.fromTo(".hero-content", { opacity: 0}, { opacity: 1});
+
+// tl.fromTo(".hero-content", { opacity: 0}, { opacity: 1});
 // tl.fromTo(".about-content", { y: "-100%"}, {y: "0%"});
 
