@@ -668,10 +668,15 @@ nav{
     align-items: center;
   }
   
+  /* .contentContainer{
+    max-height: 45%;
+  } */
+
   #project-heading {
     height: 10rem;
     padding-top: 3rem;
     font-size: 2rem;
+    z-index: 2;
   }
   
   .project-cards {
@@ -697,7 +702,7 @@ nav{
     flex-direction: column;
     justify-content: flex-end;
     background-color: rgba(245, 234, 234, 1);
-    height: 40vh;
+    height: 350px;
     width: 18vw;
     border-radius: 0.9rem;
     border: solid black 2px;
@@ -710,7 +715,7 @@ nav{
       flex-direction: column;
       justify-content: flex-end;
       background-color: rgba(245, 234, 234, 1);
-      height: 40vh;
+      height: 350px;
       width: 40%;
       border-radius: 0.9rem;
       border: solid black 2px;
@@ -732,14 +737,13 @@ nav{
   
   
   .image-container{
-    height: 100%;
+    height: 210px;
     border-top-right-radius: 0.6rem;
     border-top-left-radius: 0.6rem;
-    background-color: rebeccapurple;
   }
 
   .cards-images{
-    height: 100%;
+    height: 300px;
     border-top-right-radius: 0.6rem;
     border-top-left-radius: 0.6rem;
     border-bottom-right-radius: 0rem;
@@ -750,7 +754,7 @@ nav{
     display: flex;
     flex-direction: column;
     border-top: dashed black 1px;
-    height: 60%;
+    height: 150px;
     max-width: 100%;
     padding: 0.1rem;
   }
@@ -764,7 +768,7 @@ nav{
   .view-github {
     background-color: rgba(20, 65, 180, 1);
     max-width: 100%;
-    height: 4rem;
+    height: 40px;
     border-bottom-left-radius: 0.6rem;
     border-bottom-right-radius: 0.6rem;
     border-bottom: solid black 2px;
