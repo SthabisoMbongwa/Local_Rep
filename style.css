@@ -798,7 +798,7 @@ nav{
     height: 10rem;
     padding-top: 3rem;
     font-size: 2rem;
-    z-index: 2;
+    z-index: 1;
   }
   
   .project-cards {
@@ -837,11 +837,21 @@ nav{
       flex-direction: column;
       justify-content: flex-end;
       background-color: rgba(245, 234, 234, 1);
-      height: 350px;
+      height: 250px;
       width: 40%;
       border-radius: 0.9rem;
       border: solid black 2px;
+      margin-top: 10px;
       box-shadow: 0px -2px 5px blue;
+    }
+
+    #project-heading{
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      padding-top: 0px;
+      /* background-color: aqua; */
+      height: 40px;
     }
     
     .content-card .card-par{
