@@ -159,6 +159,7 @@ nav{
         text-align:start;
         max-width: 100%;
         color: rgb(204, 196, 196);
+        opacity: 0;
      }
   
      .about-title{
@@ -244,6 +245,7 @@ nav{
      margin-top: 20px;
      margin-bottom: 20px;
      max-width: 100%;
+     opacity: 0;
   }
   
   header p {
@@ -285,23 +287,25 @@ nav{
   }
   
   
-  @media screen and (max-width: 600px){
+  /* @media screen and (max-width: 600px){
     .about-header {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-top: 200px; 
      }
   
   }
-  
+   */
   .about-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 10px;
+    
   }
   
   .body-wrapper {
@@ -336,6 +340,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 10px;
     width: 40vw;
     max-height: 100%;
@@ -356,6 +361,7 @@ nav{
      text-align: start;
      color: rgb(204, 196, 196);
      letter-spacing: 2px;
+     opacity: 0;
   }
   
   #about-btn {
@@ -363,6 +369,7 @@ nav{
     padding-bottom: 20px;
     max-width: 100%;
     text-align: start;
+    opacity: 0;
   }
   
   @media screen and (max-width: 600px) {
@@ -370,6 +377,7 @@ nav{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-top: 50px; 
     }
   
@@ -401,7 +409,48 @@ nav{
         font-size: 2rem;
     }
   }
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .about-header {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 50px; 
+  }
+
+  .about-title{
+      font-size: 2rem;
+  }
+
+  .about-paragraph{
+      font-size: 0.7rem;
+      text-align:start;
+      max-width: 100%;
+      color: rgb(204, 196, 196);
+   }
+
+  .body-wrapper {
+      margin-left: 20px; 
+      margin-right: 20px; 
+  }
+
+  .my-image {
+      width: 80%; 
+      margin: 20px auto; 
+      border-radius: 0; 
+  }
+
+  .about-content {
+      width: 100%; 
+      text-align: center; 
+      font-size: 2rem;
+  }
+}
   
+  @media screen and (max-width: 768px) {
+   
+  }
 
   
   /*==================================================CONTACTPAGE================================================*/
@@ -662,16 +711,14 @@ nav{
   
   
   /*================================================PROJECTS============================================*/
-  
+   
   .projects-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  /* .contentContainer{
-    max-height: 45%;
-  } */
+
 
   #project-heading {
     height: 10rem;
@@ -689,7 +736,7 @@ nav{
     height: 80vh;
     width: 100vw;
     padding-bottom: 10rem;
-    
+    opacity: 0;
   }
   
   .view-github a {
@@ -738,13 +785,14 @@ nav{
   
   
   .image-container{
-    height: 210px;
+    height: 200px;
     border-top-right-radius: 0.6rem;
     border-top-left-radius: 0.6rem;
   }
 
   .cards-images{
-    height: 300px;
+    height: 100%;
+    width: 100%;
     border-top-right-radius: 0.6rem;
     border-top-left-radius: 0.6rem;
     border-bottom-right-radius: 0rem;
@@ -755,7 +803,7 @@ nav{
     display: flex;
     flex-direction: column;
     border-top: dashed black 1px;
-    height: 150px;
+    height: 120px;
     max-width: 100%;
     padding: 0.1rem;
   }
@@ -767,8 +815,11 @@ nav{
   }
   
   .view-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(20, 65, 180, 1);
-    max-width: 100%;
+    width: 100%;
     height: 40px;
     border-bottom-left-radius: 0.6rem;
     border-bottom-right-radius: 0.6rem;
@@ -781,11 +832,44 @@ nav{
   .github {
     text-align: center;
     color: black;
-    padding-top: 4%;
+    /* padding-top: 4%; */
     font-weight: 900;
-  }
+  } 
 
+
+
+
+
+/* 
   
+.projects-container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 100px;
+}
+  
+.card{
+  width: 325px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
-
+.card img{
+  width: 100%;
+  height: 40%;
+  border-top-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  object-fit: cover;
+}
+ */
   

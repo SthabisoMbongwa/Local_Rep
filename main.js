@@ -68,6 +68,74 @@ gsap.to(".project-cards", {
     y: 0
 })
 
+// Import GSAP
+
+
+// Import GSAP
+
+
+
+
+
+// Wrap your animation code inside a function to ensure it runs after the page is loaded
+window.addEventListener('load', () => {
+  // Create separate timelines for the content and image animations
+  const contentTimeline = gsap.timeline();
+  const imageTimeline = gsap.timeline();
+
+  // Content Animation
+  contentTimeline.set(".about-title", {opacity: 0,
+    y: -300 })
+
+    contentTimeline.set("#about-btn", {opacity: 0,
+        y: 300 })
+
+  contentTimeline.to('.about-title', { opacity: 1, y: 0, duration: 1, ease: 'bounce' });
+  
+  // Start the button animation at the same time as the title
+  contentTimeline.to('#about-btn', { opacity: 1, y: 20, duration: 1 }, '-=1'); 
+  
+  // '-=1' means at the same time as the title
+
+  // Split the paragraph into lines and animate them individually
+  const paragraph = document.querySelector('.about-paragraph');
+  const paragraphLines = paragraph.textContent.split('\n').filter(line => line.trim() !== '');
+
+  paragraph.textContent = ''; // Clear the original text
+
+  paragraphLines.forEach((line, index) => {
+    const span = document.createElement('span');
+    span.textContent = line;
+    paragraph.appendChild(span);
+
+    // Animate each line individually with stagger
+    contentTimeline.fromTo(
+      span,
+      { opacity: 0, y: 20 },
+      { opacity: 1, y: 0, duration: 0.5 },
+      '-=0.2' // Staggered delay between lines
+    );
+  });
+
+  // Image Animation
+  imageTimeline.from('.img-border', { scaleX: 0, scaleY: 0, duration: 1 });
+
+  // Start both animations at the same time
+  gsap.timeline().add(contentTimeline, 0).add(imageTimeline, 0);
+});
+
+// Add more animations as needed
+
+// Add more animations as needed
+
+
+// Add more animations as needed
+
+// Add more animations as needed
+
+
+// Add more animations as needed
+
 // gsap.set(".card2", {opacity: 0,
 //     y: -500 })
 
