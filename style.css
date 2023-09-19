@@ -612,35 +612,105 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        
+        justify-content: space-around;
         height: auto;
         width: 100vw;
+        
      }
+
+     .contactIcon{
+      /* display: flex;
+      flex-direction: column; */
+      gap: 10px;
+     }
+
+     .contactPar {
+      text-align: left;
+      /* margin-left: 0.5rem;
+      padding-top: 0.4rem; */
+      font-size: 0.5rem;
+    }
+    
 
      .left-section {
       display: flex;
-      width: 80vw;
+      width: 100vw;
     }
 
      .contact-icons {
       display: flex;
       flex-direction: column;
-      padding-top: 2rem;
+      gap: 20px;
+      padding-top: 1rem;
       overflow-y: scroll;
     }
   
      form {
-        margin: 1.9rem;
+        /* margin: 1.9rem; */
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         border-radius: 13px;
         border: blue 2px solid;
-        width: 80vw;
+        width: 90vw;
         height: auto;
     }
+
   
+
+
+    .input-field {
+      font-family: 'Poppins', sans-serif;
+      width: 100%;
+      height: 3rem;
+      margin-top: 0.5rem;
+      padding-left: 0.6rem;
+      padding-right: 0.6rem;
+      border: 2px solid blue;
+      color: white;
+      border-radius: 0.6rem;
+      background-color: rgba(36, 41, 56, 1);
+    }
+    
+    .btn-btn {
+      color: rgb(204, 196, 196);
+      font-weight: 750;
+      font-size: 0.7rem;
+      text-decoration: none;
+      background-color: rgb(22, 22, 199);
+      border: solid black;
+      border-radius: 0.6rem;
+      padding: 0.3rem 0.3rem;
+      max-width: 100%;
+      height: 1.9rem;
+      width: 6.1rem ;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      /* padding-top: 1.111rem;
+      padding-bottom: 1.111rem; */
+      height: 1px;
+      max-width: 100%;
+      text-align: center; 
+      text-decoration: none;
+    }
+
+    #contact-socials{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+
+    }
+  
+  }
+  
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1280px) {
+    
+      
   }
   
   .btn-btn {
@@ -843,6 +913,12 @@ nav{
       border: solid black 2px;
       margin-top: 10px;
       box-shadow: 0px -2px 5px blue;
+    }
+
+    .project-cards{
+      margin-top: 30px;
+      gap: 20px;
+      
     }
 
     #project-heading{
