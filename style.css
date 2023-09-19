@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* border: red solid 1px; */
+  border: red solid 1px;
 }
 
 :root {
@@ -304,7 +304,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 200px;
     
   }
   
@@ -372,17 +372,20 @@ nav{
     opacity: 0;
   }
   
-  @media screen and (max-width: 600px) {
+  @media only screen and (min-device-width : 350px) and (max-width: 600px) {
     .about-header {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin-top: 50px; 
+        margin-top: 10px; 
+        overflow: scroll;
     }
   
     .about-title{
-        font-size: 2rem;
+      display: flex;
+      justify-content: center;
+        font-size: 1.5rem;
     }
   
     .about-paragraph{
@@ -390,6 +393,8 @@ nav{
         text-align:start;
         max-width: 100%;
         color: rgb(204, 196, 196);
+       overflow-y: scroll;
+        opacity: 1;
      }
   
     .body-wrapper {
@@ -399,27 +404,39 @@ nav{
   
     .my-image {
         width: 80%; 
-        margin: 20px auto; 
+        
+        /* margin: 20px auto;  */
         border-radius: 0; 
     }
   
     .about-content {
         width: 100%; 
         text-align: center; 
-        font-size: 2rem;
+        font-size: 1.2rem;
+    }
+
+    #about-btn {
+      padding-top: 0px;
+      /* padding-bottom: 50px; */
+      max-width: 100%;
+      text-align: center;
+     
     }
   }
 
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
     .about-header {
       flex-direction: column-reverse;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-top: 50px; 
+      margin-top: 10px; 
   }
 
   .about-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-size: 2rem;
   }
 
@@ -446,12 +463,10 @@ nav{
       text-align: center; 
       font-size: 2rem;
   }
+
+
 }
   
-  @media screen and (max-width: 768px) {
-   
-  }
-
   
   /*==================================================CONTACTPAGE================================================*/
   

@@ -21,7 +21,7 @@ const sizes = {
     height: window.innerHeight
 }
 
-const geometry = new THREE.SphereBufferGeometry(0.8, 64, 64) 
+const geometry = new THREE.SphereBufferGeometry(0.6, 64, 64) 
 
 
 // Materials
@@ -100,8 +100,8 @@ let mouseY = 0
 let targetX = 0
 let targetY = 0
 
-const windowHalfX = window.innerWidth / 10;
-const windowHalfY = window.innerHeight / 10;
+const windowHalfX = window.innerWidth / 5;
+const windowHalfY = window.innerHeight / 5;
 
 function onDocumentMouseMove(event) {
     mouseX = (event.clientX - windowHalfX)
