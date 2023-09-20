@@ -24,7 +24,8 @@ const calculateSphereSize = () => {
     return sphereSize * 0.9; // Multiply by 0.9 to keep the sphere smaller
 };
 
-const geometry = new THREE.SphereBufferGeometry(calculateSphereSize(), 64, 64);
+const geometry = new THREE.SphereBufferGeometry(0.8, 64, 64) 
+
 
 // Materials
 const material = new THREE.MeshStandardMaterial();
@@ -132,8 +133,7 @@ tick();
 //Timeline
 const tl = gsap.timeline({defaults: { duration: 1}});
 tl.fromTo(sphere.scale, {z: 0, x: 0, y: 0}, {z: 1, x: 1, y: 1});
-
-// tl.fromTo(".hero-content", { y: "200%"}, { y: "0%"});
+tl.fromTo(".hero-content", { y: "200%"}, { y: "0%"});
 tl.fromTo("nav", { y: "-100%"}, {y: "0%"});
 
 tl.fromTo(".hero-content", { opacity: 0}, { opacity: 1});
