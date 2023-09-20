@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  border: red solid 1px;
+  /* border: red solid 1px; */
 }
 
 :root {
@@ -762,10 +762,6 @@ nav{
   
   }
   
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1280px) {
-    
-      
-  }
   
   .btn-btn {
     color: rgb(204, 196, 196);
@@ -872,17 +868,39 @@ nav{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 6.1rem;
+    gap: 2rem;
     width: 100%;
   }
 
   .skill2{
     display: flex;
     justify-content: center;
-    gap: 6.1rem;
+    gap: 2rem;
     width: 100%;
     flex-wrap: wrap;
   }
+
+  .skill11{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .skill12{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .skill21{
+    display: flex;
+    gap: 2rem;
+  }
+
+  .skill22{
+    display: flex;
+    gap: 2rem;
+  }
+
+  
 
   .skills-par{
     display: flex;
@@ -919,9 +937,9 @@ nav{
     background: linear-gradient(135deg, #220756 0%, #0044FF 100%); 
     border: 2px solid #0044FF; 
     border-radius: 15%; 
-    padding: 10px; 
-    width: 15rem;
-    padding-bottom: 3rem;
+    /* padding: 10px;  */
+    width: 11rem;
+    padding-bottom: 2.5rem;
     /* opacity: 0; */
   }
   
@@ -940,7 +958,115 @@ nav{
   }
   
  
+  @media screen and (max-width: 767px){
+    .skills{
+      margin-top: 30px;
+    }
+    .svg-box{
+      height: 75px;
+      width: 75px;
+    }
+
+    .skill11{
+      display: flex;
+      gap: 1rem;
+    }
+
+    .skill12{
+      display: flex;
+      gap: 1rem;
+    }
   
+    .skill21{
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .skill22{
+      display: flex;
+      gap: 1rem;
+    }
+
+    .styled-react{
+      width: 8rem;
+      padding-bottom: 1.5rem;
+      gap: 0rem;
+      padding-top: 0.2rem;
+      
+    }
+
+    #project-heading{
+      font-size: 0.5rem;
+    }
+
+    .par{
+      font-size: 0.6rem;
+      width: 40rem;
+      /* background-color: aqua; */
+    }
+
+    .skills-par{
+      width: 100%;
+      /* background-color: red; */
+    }
+  }
+  
+
+  @media screen and (min-width: 767px) and (max-width:1023px){
+    .svg-box{
+      height: 100px;
+      width: 100px;
+    }
+
+    .skill1{
+      display: flex;
+    
+      /* background-color: aqua; */
+    }
+
+    .skill11{
+      display: flex;
+      gap: 8rem;
+    }
+
+    .skill12{
+      display: flex;
+      gap: 8rem;
+    }
+  
+    .skill21{
+      display: flex;
+      gap: 8rem;
+    }
+  
+    .skill22{
+      display: flex;
+      gap: 8rem;
+    }
+    
+
+  }
+
+  @media screen and (min-width: 1024px){
+    skills{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 80vh;
+      margin-top: 50px;
+      gap: 30px;
+    }
+
+    .styled-react{
+      width: 13rem;
+      padding-bottom: 1.5rem;
+      gap: 0rem;
+      padding-top: 0.2rem;
+      
+    }
+  }
+
 
 
 
