@@ -515,7 +515,7 @@ nav{
       /* justify-content: space-between; */
       gap: 70px;
       margin-top: 50px; 
-      background-color: aqua;
+      /* background-color: aqua; */
       height: 90%;
   }
 
@@ -538,7 +538,7 @@ nav{
   .body-wrapper {
       margin-left: 20px; 
       margin-right: 20px; 
-      background-color: #220756;
+      /* background-color: #220756; */
       height: 100%;
   }
 
